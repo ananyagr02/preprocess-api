@@ -169,11 +169,11 @@ import os
 # --- 1. CONFIGURATION (Must match artifact generation scripts) ---
 
 # --- a. Artifact Filenames ---
-MEDIAN_ARTIFACT_PATH = 'dos_medians (1).pkl'
-MM_SCALER_PATH = 'dos_min_max_scaler (1).pkl'
-MM_COLS_PATH = 'dos_min_max_cols (1).pkl'
-STD_SCALER_PATH = 'dos_standard_scaler (1).pkl'
-STD_COLS_PATH = 'dos_standard_cols (1).pkl'
+MEDIAN_ARTIFACT_PATH = 'dos_medians.pkl'
+MM_SCALER_PATH = 'dos_min_max_scaler.pkl'
+MM_COLS_PATH = 'dos_min_max_cols.pkl'
+STD_SCALER_PATH = 'dos_standard_scaler.pkl'
+STD_COLS_PATH = 'dos_standard_cols.pkl'
 
 # --- b. Column Lists for Processing Steps ---
 # List for Zero Imputation (from median artifact script)
